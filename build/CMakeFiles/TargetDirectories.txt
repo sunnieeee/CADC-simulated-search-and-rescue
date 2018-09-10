@@ -1,0 +1,3 @@
+/home/guabguo/1project/fly/build/CMakeFiles/edit_cache.dir
+/home/guabguo/1project/fly/build/CMakeFiles/rebuild_cache.dir
+/home/guabguo/1project/fly/build/CMakeFiles/demo.dir
