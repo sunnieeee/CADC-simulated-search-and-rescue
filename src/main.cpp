@@ -1,6 +1,29 @@
+
+/*=================================================================================
+ *	                    Copyleft! 2018 Sunny Cao
+ *          Some rights reserved：CC(creativecommons.org)BY-NC-SA
+ *                      Copyleft! 2018 Sunny Cao
+ *      版权部分所有，遵循CC(creativecommons.org)BY-NC-SA协议授权方式使用
+ *
+ * Filename                : fly.h
+ * Description             : 
+ * Reference               : 
+ * Programmer(s)           : Sunny Cao, sunniecyq@163.com
+ * 							 GUABGUO, 809565546@qq.com
+ * Company                 : Thinkfly Studio
+ * Modification History	   : ver1.0, 2018.09.11, Sunny Cao
+ *                          
+=================================================================================*/
+
 #include "fly.h"
 using namespace cv;
 
+
+
+/**
+ * @function main
+ * @author GUABGUO
+ */
 Mat src;
 char key;
 Boll boll;
