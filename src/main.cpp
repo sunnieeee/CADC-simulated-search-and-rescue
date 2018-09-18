@@ -26,7 +26,7 @@ using namespace cv;
  */
 Mat src;
 char key;
-Boll boll;
+Ball ball;
 Cube cube;
 
 int main(int argc, char** argv)
@@ -44,29 +44,29 @@ int main(int argc, char** argv)
         imshow("src",src);
 
         key=waitKey(10);
-        boll.get_pic(src);
+        ball.get_pic(src);
         cube.get_pic(src);
         
         switch(key)
         {
             //按z识别球的投放区
             case 'z':
-                boll.reco_box();       
+                ball.reco_box();       
                 break;
 
             //按x识别球
             case 'x':
-                boll.reco_coordinate();
+                ball.reco_coordinate();
                 break;
 
             //按c抓取球
             case 'c':
-                boll.send_coordinate();
+                ball.send_coordinate();
                 break;
 
             //按v放球
             case 'v':
-                boll.loosen_hand();
+                ball.loosen_hand();
                 break;
 
             //按a识别魔方

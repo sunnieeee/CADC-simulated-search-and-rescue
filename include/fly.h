@@ -20,10 +20,21 @@
 #include<opencv2/opencv.hpp>
 
 /**
- * @class Boll
+ * @define macro
+ * @author Sunnie
+ */
+#define hmin (uchar)0
+#define hmax (uchar)180
+#define smin (uchar)0
+#define smax (uchar)255
+#define vmin (uchar)0
+#define vmax (uchar)255
+
+/**
+ * @class Ball
  * @author GUABGUO
  */
-class Boll
+class Ball
 {
 private:
     int color_;
@@ -31,9 +42,9 @@ private:
     int y_;
     cv::Mat pic_;
 public:
-    Boll();
-    Boll(int c, int x, int y);
-    ~Boll();
+    Ball();
+    Ball(int c, int x, int y);
+    ~Ball();
     int get_pic(cv::Mat pic);
 
     //识别投放区颜色
